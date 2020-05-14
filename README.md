@@ -20,7 +20,6 @@ Springboot+Dubbo+Nacos 注解方式实现微服务调用
 
 ## 开发建议
 - post调用接口ip:8862/api/user/login,参数json: {"username":"admin","password":"123456"},调用成功后, 返回token。以后调用api接口，header中传token
-- 正式环境已禁用接口文档的查看，配置文件添加knife4j:production: true 即可
 - Model内成员变量建议与表字段数量对应，如需扩展成员变量（比如连表查询）建议创建DTO，否则需在扩展的成员变量上加@TableField(exist = false)，详见[MyBatis-Plus](https://mp.baomidou.com/guide/)文档说明
 - 建议业务失败直接使用ServiceException("ErrorMessage")抛出，由统一异常处理器来封装业务失败的响应结果，会直接被封装为{"code":400,"message":"ErrorMessage"}返回，尽情抛出；body方式传参，@Valid校验Model，更无需自己处理；
 
