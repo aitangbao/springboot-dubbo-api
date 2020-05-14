@@ -26,7 +26,6 @@ hs_err_pid*
 *.iws
 *.iml
 *.ipr
-doc/
 spring-boot-dubbo-base/target/generated-sources/
 spring-boot-dubbo-consumer/src/test/java/com/sans/
 spring-boot-dubbo-consumer/target/generated-sources/

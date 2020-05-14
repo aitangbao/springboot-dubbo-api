@@ -39,4 +39,4 @@ Springboot+Dubbo+Nacos 注解方式实现微服务调用
 其他
 
 ## License
-纯粹开源分享，感谢大家 [Star](https://github.com/aitangbao/springboot-api) 的支持。
+纯粹开源分享，感谢大家 [Star](https://gitee.com/zwens/springboot-dubbo-api) 的支持。
