@@ -11,9 +11,6 @@ Springboot+Dubbo+Nacos 注解方式实现微服务调用
 - 采用简单的jwt认证
 - 使用Druid Spring Boot Starter 集成Druid数据库连接池与监控
 - 集成MyBatis-Plus，实现单表业务零SQL
-- 支持多数据源，自由切换，只需方法或类上用 @DS 切换数据源
-- 集成国人风格的knife4j，自动生成接口文档
-- 提供代码生成器，生成controller,service,serviceImpl,dao,mapper.xml
 
 ## 快速开始
 1. 克隆项目, 下载并启动nacos
