@@ -50,20 +50,9 @@
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-client</artifactId>
             <version>${nacos.vsersion}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>commons-io</artifactId>
-                    <groupId>commons-io</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <!-- dubbo结束-->
 
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
     </dependencies>
 
     <build>
