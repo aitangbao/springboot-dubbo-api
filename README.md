@@ -1,9 +1,15 @@
 # spring-boot-dubbo-api
 
 ## 简介
-Springboot+Dubbo+Nacos 注解方式实现微服务调用 
-基于Spring Boot + Dubbo + Nacos + MyBatis plus实现微服务调用的种子项目，
+基于Spring Boot + Dubbo + Nacos + MyBatis plus 注解方式实现微服务调用的种子项目，
 用于快速构建API项目，特点稳定、简单、快速，摆脱那些重复劳动
+
+## 版本
+SpringBoot版本:2.2.0
+Dubbo版本:2.7.3
+Nacos版本:1.2.1
+JDK版本:1.8
+MyBatisPlus版本:3.3.0
 
 ## 特征&提供
 - 统一响应结果封装及生成工具
