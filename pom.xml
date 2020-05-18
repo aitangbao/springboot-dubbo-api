@@ -22,6 +22,7 @@
         <module>spring-boot-dubbo-provider</module>
         <module>spring-boot-dubbo-entity</module>
         <module>spring-boot-dubbo-service</module>
+        <module>spring-boot-dubbo-generator</module>
     </modules>
 
     <properties>
